@@ -25,6 +25,8 @@ class CategoryController extends Controller
     {
         return Admin::content(function (Content $content) {
 
+
+            
             $content->header('header');
             $content->description('description');
             $content->body($this->grid());
